@@ -24,6 +24,14 @@ typedef struct s_scop
 	// Fragment Shader
 	const char *const *fragmentShaderSource;
 	unsigned int fragmentShader;
+
+	// Vertex object buffer
+	unsigned int VBO;
+	unsigned int VAO;
+	unsigned int EBO;
+
+	// Shader program
+	unsigned int shaderProgram;
 } t_scop;
 
 /*

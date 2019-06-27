@@ -23,7 +23,7 @@ SRCS_FULL			=	$(addprefix $(SRCS_DIR), $(SRCS))
 
 OBJS				=	$(SRCS_FULL:.c=.o)
 
-CFLAGS				=	-Wall -Wextra -I./includes/ -I/usr/local/include/GLFW
+CFLAGS				=	-Wall -Wextra -I./includes/ -I/usr/local/include/GLFW -I/usr/local/include
 
 all:				$(NAME)
 

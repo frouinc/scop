@@ -16,7 +16,7 @@ char *read_file(const char *filename)
 			fclose(f);
 			return (NULL);
 		}
-		if (fread(buffer, 1, length, f) < length)
+		if (fread(buffer, 1, length, f) < (unsigned long)length)
 		{
 			free(buffer);
 			fclose(f);
